@@ -1,8 +1,6 @@
-# Home
+# Wopasi Pazo Working Group
 
-## Working Group Title
-
-Working Group Title
+## Introduction
 
 This working group runs as a single system: a GitHub repository where environmental data science is organized, analyzed, and versioned, and a public website where results are explained and shared with the community.
 
