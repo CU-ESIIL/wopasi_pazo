@@ -1,11 +1,11 @@
 site_name: 'Wopasi Pazo Working Group'
 site_description: 'Repository and website template for Wopasi Pazo working group'
 site_author: Mason Grimshaw
-site_url: https://cu-esiil.github.io/wopasi-pazo
+site_url: https://cu-esiil.github.io/wopasi_pazo
 
 # Repository
-repo_name: wopasi-pazo
-repo_url: https://github.com/CU-ESIIL/wopasi-pazo
+repo_name: wopasi_pazo_working_group
+repo_url: https://github.com/CU-ESIIL/wopasi_pazo_working_group
 # The edit URI points MkDocs Material at the docs/ source so page edit links open in GitHub edit mode.
 edit_uri: edit/main/docs/
 # Copyright
