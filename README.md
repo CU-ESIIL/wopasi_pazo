@@ -1,4 +1,4 @@
-# Wopasi Paso Working Group
+# Wopasi Pazo Working Group
 
 This repository is a template for ESIIL Working Groups.
 
