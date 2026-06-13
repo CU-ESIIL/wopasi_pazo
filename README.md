@@ -1,4 +1,5 @@
-# Wopasi Pazo Working Group
+# Wopasi Pazo
+## Researching and Sharing Our Findings
 
 This repository is a template for ESIIL Working Groups.
 
