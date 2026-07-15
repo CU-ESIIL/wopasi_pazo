@@ -15,7 +15,7 @@ As the working group progresses, the repository becomes the reproducible record 
 
 ## Working Group Abstract
 
-Add an overview of who your group is, why you have come together and what questions you are answering. This is very similar to your working group description on the esiil website.
+Wopasi Pazo is working towards making environmental data more accessible to community members through simple, intuitive interfaces and natural language.
 
 ## Start Here
 
