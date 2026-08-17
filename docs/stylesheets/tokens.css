@@ -1,25 +1,33 @@
-/* Design tokens inspired by ESIIL's calm institutional palette */
+/* Design tokens — "Academic editorial" aesthetic (Option 1a)
+   Warm cream page, near-black olive text, deep forest green accent.
+   Typography: Newsreader (serif) for headings/body, IBM Plex Mono for labels. */
 
-:root {
-  --esiil-color-brand-900: #12324a;
-  --esiil-color-brand-800: #18445f;
-  --esiil-color-brand-700: #205b73;
-  --esiil-color-accent-600: #1d7e88;
-  --esiil-color-accent-500: #2d95a1;
-  --esiil-color-green-500: #6f8f57;
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap");
 
-  --esiil-color-text: #21313d;
-  --esiil-color-text-muted: #5f7382;
-  --esiil-color-heading: #17344b;
-  --esiil-color-link: #1f6e93;
-  --esiil-color-link-hover: #184e69;
+/* Also scoped to the default scheme so these win over Material's own
+   [data-md-color-scheme=default] variable definitions. */
+:root,
+[data-md-color-scheme="default"] {
+  --esiil-color-brand-900: #22271f;
+  --esiil-color-brand-800: #1b3a2d;
+  --esiil-color-brand-700: #2c4a3b;
+  --esiil-color-accent-600: #1b3a2d;
+  --esiil-color-accent-500: #2f5744;
+  --esiil-color-green-500: #1b3a2d;
 
-  --esiil-color-bg: #f5f8f7;
-  --esiil-color-bg-soft: #edf4f2;
-  --esiil-color-surface: #ffffff;
-  --esiil-color-surface-tint: #f8fbfc;
-  --esiil-color-border: #d7e2e6;
-  --esiil-color-border-strong: #c1d0d8;
+  --esiil-color-text: #3d4236;
+  --esiil-color-text-muted: #6b6a55;
+  --esiil-color-heading: #22271f;
+  --esiil-color-link: #1b3a2d;
+  --esiil-color-link-hover: #22271f;
+
+  --esiil-color-bg: #f7f3e8;
+  --esiil-color-bg-soft: #f7f3e8;
+  --esiil-color-surface: #f7f3e8;
+  --esiil-color-surface-tint: #f1ecdc;
+  --esiil-color-border: #d8d2bd;
+  --esiil-color-border-strong: #22271f;
+  --esiil-color-on-dark: #f5f1e6;
 
   --esiil-space-1: 0.25rem;
   --esiil-space-2: 0.5rem;
@@ -32,26 +40,27 @@
 
   --esiil-text-xs: 0.75rem;
   --esiil-text-sm: 0.9375rem;
-  --esiil-text-md: 1rem;
+  --esiil-text-md: 1.0625rem;
   --esiil-text-lg: 1.125rem;
   --esiil-text-xl: 1.375rem;
-  --esiil-text-2xl: clamp(1.75rem, 1.35rem + 1.4vw, 2.6rem);
-  --esiil-text-3xl: clamp(2.25rem, 1.7rem + 2vw, 3.5rem);
+  --esiil-text-2xl: clamp(1.6rem, 1.3rem + 1.1vw, 2.2rem);
+  --esiil-text-3xl: clamp(2.4rem, 1.9rem + 2vw, 3.25rem);
 
-  --esiil-radius-sm: 0.35rem;
-  --esiil-radius-md: 0.75rem;
-  --esiil-radius-lg: 1.25rem;
+  /* Editorial style: square corners, no shadows */
+  --esiil-radius-sm: 0;
+  --esiil-radius-md: 0;
+  --esiil-radius-lg: 0;
 
-  --esiil-shadow-sm: 0 10px 24px rgba(20, 50, 74, 0.06);
-  --esiil-shadow-md: 0 18px 40px rgba(20, 50, 74, 0.09);
-  --esiil-shadow-lg: 0 24px 60px rgba(20, 50, 74, 0.12);
+  --esiil-shadow-sm: none;
+  --esiil-shadow-md: none;
+  --esiil-shadow-lg: none;
 
   --esiil-transition-fast: 180ms ease;
   --esiil-transition-base: 260ms ease;
 
   --md-primary-fg-color: var(--esiil-color-brand-800);
   --md-primary-fg-color--light: var(--esiil-color-brand-700);
-  --md-primary-fg-color--dark: #10283a;
+  --md-primary-fg-color--dark: var(--esiil-color-brand-900);
   --md-accent-fg-color: var(--esiil-color-accent-600);
 
   --md-default-bg-color: var(--esiil-color-bg);
@@ -60,25 +69,34 @@
   --md-typeset-color: var(--esiil-color-text);
   --md-typeset-a-color: var(--esiil-color-link);
 
-  --md-code-bg-color: #eef3f6;
-  --md-code-fg-color: #2d4253;
+  --md-code-bg-color: #efe9d8;
+  --md-code-fg-color: #22271f;
 
-  --esiil-font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  --esiil-font-mono: "SFMono-Regular", "SFMono", "Roboto Mono", Consolas, monospace;
+  --esiil-font-serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --esiil-font-sans: var(--esiil-font-serif);
+  --esiil-font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Mono label style used for eyebrows, nav, roles */
+  --esiil-label-letter-spacing: 0.1em;
 }
 
 [data-md-color-scheme="slate"] {
-  --esiil-color-bg: #10202d;
-  --esiil-color-bg-soft: #173040;
-  --esiil-color-surface: #183242;
-  --esiil-color-surface-tint: #1c3a4d;
-  --esiil-color-text: #dde7ec;
-  --esiil-color-text-muted: #aebfca;
-  --esiil-color-heading: #f2f7fa;
-  --esiil-color-link: #78bfd0;
-  --esiil-color-link-hover: #a7dce8;
-  --esiil-color-border: rgba(196, 214, 224, 0.16);
-  --esiil-color-border-strong: rgba(196, 214, 224, 0.28);
-  --md-code-bg-color: rgba(11, 23, 32, 0.45);
-  --md-code-fg-color: #eaf1f5;
+  --esiil-color-bg: #1c211a;
+  --esiil-color-bg-soft: #1c211a;
+  --esiil-color-surface: #1c211a;
+  --esiil-color-surface-tint: #242a21;
+  --esiil-color-text: #d9d5c4;
+  --esiil-color-text-muted: #a3a189;
+  --esiil-color-heading: #f5f1e6;
+  --esiil-color-link: #a9c3b3;
+  --esiil-color-link-hover: #cfe0d5;
+  --esiil-color-border: #3a4034;
+  --esiil-color-border-strong: #d9d5c4;
+  --md-default-bg-color: var(--esiil-color-bg);
+  --md-default-fg-color: var(--esiil-color-text);
+  --md-default-fg-color--light: var(--esiil-color-text-muted);
+  --md-typeset-color: var(--esiil-color-text);
+  --md-typeset-a-color: var(--esiil-color-link);
+  --md-code-bg-color: #262c23;
+  --md-code-fg-color: #ece8d9;
 }
