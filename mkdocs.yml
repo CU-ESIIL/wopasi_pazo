@@ -4,8 +4,8 @@ site_author: Mason Grimshaw
 site_url: https://cu-esiil.github.io/wopasi_pazo
 
 # Repository
-repo_name: wopasi_pazo_working_group
-repo_url: https://github.com/CU-ESIIL/wopasi_pazo_working_group
+repo_name: wopasi_pazo
+repo_url: https://github.com/CU-ESIIL/wopasi_pazo
 # The edit URI points MkDocs Material at the docs/ source so page edit links open in GitHub edit mode.
 edit_uri: edit/main/docs/
 # Copyright
