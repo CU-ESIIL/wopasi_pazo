@@ -6,8 +6,8 @@ This working group runs as a single system: a GitHub repository where environmen
 
 As the working group progresses, the repository becomes the reproducible record of the science, and the website becomes the public report.
 
-[Edit this homepage in GitHub](https://github.com/CU-ESIIL/Working_group_OASIS/edit/main/docs/index.md){ .md-button .md-button--secondary }
-[Open the GitHub repository](https://github.com/CU-ESIIL/Working_group_OASIS){ .md-button }
+[Edit this homepage in GitHub](https://github.com/CU-ESIIL/wopasi_pazo/edit/main/docs/index.md){ .md-button .md-button--secondary }
+[Open the GitHub repository](https://github.com/CU-ESIIL/wopasi_pazo){ .md-button }
 
 ![Placeholder image for the homepage overview][slot-hero]{ .homepage-hero }
 
