@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This working group runs as a single system: a GitHub repository where environmental data science is organized, analyzed, and versioned, and a public website where results are explained and shared with the community.
+Hey hey hey  runs as a single system: a GitHub repository where environmental data science is organized, analyzed, and versioned, and a public website where results are explained and shared with the community.
 
 As the working group progresses, the repository becomes the reproducible record of the science, and the website becomes the public report.
 
