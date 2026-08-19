@@ -40,6 +40,6 @@
 
 ## Get Involved
 
---8<-- "_content/get-involved.md"
+--8<-- "wopasipazo@googlegroups.com"
 
 --8<-- "_generated/image_slots.md"
