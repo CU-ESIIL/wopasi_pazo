@@ -128,7 +128,7 @@ Related landmark: WG-A People and roles.
 | --- | --- | --- | --- |
 | Sierra Hicks | Co-Leader | Cornell University | Responsibilities |
 | Esmee Mulder | Co-Leader | University of Colorado - Boulder | Responsibilities |
-| Alicia Swimmer | Co-Leader | Sicangu Lakota Treaty Council | Responsibilities |
+| Alicia Swimmer | Co-Leader | Sinte Gleska University | Responsibilities |
 | Philimon Two Eagle | Co-Leader | Sicangu Lakota Treaty Council | Responsibilities |
 | Jackson Furlong | Member | Sinte Gleska University | Responsibilities |
 | Frank Gangone, Jr. | Member | Sicangu Lakota Treaty Council | Responsibilities |
